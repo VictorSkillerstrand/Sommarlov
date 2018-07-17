@@ -1,0 +1,187 @@
+/* AFFECTS ENTIRITIES */
+
+body {
+    margin: 0px;    /* Gör så headern ser ut som den sträcker sig över hela webbläsarfönstret */
+    background-color: #F5F5F5;
+}
+
+h3 {
+    color: white;
+    font-size: 27px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -42px;
+}
+
+ul {
+    list-style-type: none;  /* Inga prickar framför varje objekt */
+    margin-top: 5px;
+    margin-left: 138px;
+    padding: 0px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 130px;
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    border-right: 3px solid #00454f;
+    border-left: 3px solid #00454f;
+    border-radius: 5px;
+    padding: 1px 6px;
+}
+
+
+
+/*-------footer-------*/
+footer {
+    width: 100%;
+    background-color: #878787;
+    padding: 1px 0px;
+    margin-top: 266px;
+}
+.footInfo p {
+    display: inline-block;
+    color: #dadada;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+.footInfo a {
+    color: #dadada;
+}
+.rightSideFooter {
+    float: right;
+    margin-right: 20px; 
+}
+/*-------footer-END-------*/
+
+
+
+/* Gör så att den blåa färgen och linjen under länkar inte syns, ser därför "normalt ut" */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Ändrar färg när musen är ovanför flikarna */
+li:hover {
+    background-color: #007a99;
+}
+
+.centered {
+    text-align: center;
+}
+.stroke {
+    color: black;
+}
+
+.header {
+    z-index: 2;
+    position: fixed;    /* Finns alltid på toppen av webbsidan, även vid scroll */
+    width: 100%;
+    height: 200px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Abel', sans-serif;
+    margin-top: 27px;
+    padding: 0px;
+}
+
+.headerOffputHome h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 57px;
+    text-align: center;
+    color: #7C99E4;
+    border-bottom: 1px solid #2956C7;
+    border-radius: 5px;
+    margin: 0px 278px;
+    margin-bottom: 35px;
+    padding: 0px;
+    position: relative;
+    top: 18px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    line-height: 1.35;
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+/* Utrymmet som används under bannern och alla tabs, på Home */
+.headerOffputHome {
+    position: relative;
+    top: 245px;
+    margin: 0px auto;
+    width: 900px;
+    height: 620px;
+    border-top: 2px solid #c3c3c3;
+    border-bottom: 2px solid #c3c3c3;
+    border-radius: 3px;
+}
+.headerOffputProjects {
+    position: relative;
+    top: 245px;
+    margin: 0px auto;
+    width: 900px;
+    height: 624px;
+}
+.headerOffputProgramming {
+    position: relative;
+    top: 245px;
+    margin: 0px auto;
+    width: 900px;
+    height: 624px;
+}
+/*--------------------------------------------------------------*/
+
+
+.headerBackground {
+    z-index: 1;
+    position: fixed;
+    background-image: url("http://www.fullhdwpp.com/wp-content/uploads/programming-and-code-13_www.FullHDWpp.com_.jpg?x69613");
+    width: 100%;
+    height: 200px;
+    filter: blur(2px);
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    height: 42px;
+    background-color: #006680;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.imgHome {
+    float: right;
+}
+
+/*------Valda tabs har olika färger och/eller andra föremål START------*/
+.home {
+    color: white;
+}
+.programming {
+    color: white;
+}
+.projects {
+    color: white;
+}
+/*------Valda tabs har olika färger och/eller andra föremål SLUT------*/
+
+#iframeinfo {
+    width: 36em;
+    height: 25em;
+    border: 1px solid black;
+}
